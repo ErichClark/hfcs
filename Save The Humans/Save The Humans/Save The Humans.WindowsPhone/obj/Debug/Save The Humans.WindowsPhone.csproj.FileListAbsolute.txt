@@ -1,0 +1,32 @@
+C:\Users\Erich\Documents\GitHub\hfcs\Save The Humans\Save The Humans\Save The Humans.WindowsPhone\bin\Debug\App.xbf
+C:\Users\Erich\Documents\GitHub\hfcs\Save The Humans\Save The Humans\Save The Humans.WindowsPhone\bin\Debug\MainPage.xbf
+C:\Users\Erich\Documents\GitHub\hfcs\Save The Humans\Save The Humans\Save The Humans.WindowsPhone\bin\Debug\Save The Humans.WindowsPhone.xr.xml
+C:\Users\Erich\Documents\GitHub\hfcs\Save The Humans\Save The Humans\Save The Humans.WindowsPhone\bin\Debug\Save The Humans.WindowsPhone.exe
+C:\Users\Erich\Documents\GitHub\hfcs\Save The Humans\Save The Humans\Save The Humans.WindowsPhone\bin\Debug\Save The Humans.WindowsPhone.pdb
+C:\Users\Erich\Documents\GitHub\hfcs\Save The Humans\Save The Humans\Save The Humans.WindowsPhone\bin\Debug\resources.pri
+C:\Users\Erich\Documents\GitHub\hfcs\Save The Humans\Save The Humans\Save The Humans.WindowsPhone\bin\Debug\AppxManifest.xml
+C:\Users\Erich\Documents\GitHub\hfcs\Save The Humans\Save The Humans\Save The Humans.WindowsPhone\bin\Debug\Save The Humans.WindowsPhone.build.appxrecipe
+C:\Users\Erich\Documents\GitHub\hfcs\Save The Humans\Save The Humans\Save The Humans.WindowsPhone\obj\Debug\App.g.i.cs
+C:\Users\Erich\Documents\GitHub\hfcs\Save The Humans\Save The Humans\Save The Humans.WindowsPhone\obj\Debug\App.g.cs
+C:\Users\Erich\Documents\GitHub\hfcs\Save The Humans\Save The Humans\Save The Humans.WindowsPhone\obj\Debug\MainPage.g.i.cs
+C:\Users\Erich\Documents\GitHub\hfcs\Save The Humans\Save The Humans\Save The Humans.WindowsPhone\obj\Debug\MainPage.g.cs
+C:\Users\Erich\Documents\GitHub\hfcs\Save The Humans\Save The Humans\Save The Humans.WindowsPhone\obj\Debug\XamlTypeInfo.g.cs
+C:\Users\Erich\Documents\GitHub\hfcs\Save The Humans\Save The Humans\Save The Humans.WindowsPhone\obj\Debug\App.xaml
+C:\Users\Erich\Documents\GitHub\hfcs\Save The Humans\Save The Humans\Save The Humans.WindowsPhone\obj\Debug\MainPage.xaml
+C:\Users\Erich\Documents\GitHub\hfcs\Save The Humans\Save The Humans\Save The Humans.WindowsPhone\obj\Debug\App.xbf
+C:\Users\Erich\Documents\GitHub\hfcs\Save The Humans\Save The Humans\Save The Humans.WindowsPhone\obj\Debug\MainPage.xbf
+C:\Users\Erich\Documents\GitHub\hfcs\Save The Humans\Save The Humans\Save The Humans.WindowsPhone\obj\Debug\XamlSaveStateFile.xml
+C:\Users\Erich\Documents\GitHub\hfcs\Save The Humans\Save The Humans\Save The Humans.WindowsPhone\obj\Debug\Save The Humans.WindowsPhone.exe
+C:\Users\Erich\Documents\GitHub\hfcs\Save The Humans\Save The Humans\Save The Humans.WindowsPhone\obj\Debug\Save The Humans.WindowsPhone.pdb
+C:\Users\Erich\Documents\GitHub\hfcs\Save The Humans\Save The Humans\Save The Humans.WindowsPhone\obj\Debug\priconfig.xml
+C:\Users\Erich\Documents\GitHub\hfcs\Save The Humans\Save The Humans\Save The Humans.WindowsPhone\obj\Debug\priconfig.xml.intermediate
+C:\Users\Erich\Documents\GitHub\hfcs\Save The Humans\Save The Humans\Save The Humans.WindowsPhone\obj\Debug\layout.resfiles
+C:\Users\Erich\Documents\GitHub\hfcs\Save The Humans\Save The Humans\Save The Humans.WindowsPhone\obj\Debug\layout.resfiles.intermediate
+C:\Users\Erich\Documents\GitHub\hfcs\Save The Humans\Save The Humans\Save The Humans.WindowsPhone\obj\Debug\resources.resfiles
+C:\Users\Erich\Documents\GitHub\hfcs\Save The Humans\Save The Humans\Save The Humans.WindowsPhone\obj\Debug\resources.resfiles.intermediate
+C:\Users\Erich\Documents\GitHub\hfcs\Save The Humans\Save The Humans\Save The Humans.WindowsPhone\obj\Debug\pri.resfiles
+C:\Users\Erich\Documents\GitHub\hfcs\Save The Humans\Save The Humans\Save The Humans.WindowsPhone\obj\Debug\pri.resfiles.intermediate
+C:\Users\Erich\Documents\GitHub\hfcs\Save The Humans\Save The Humans\Save The Humans.WindowsPhone\obj\Debug\qualifiers.txt
+C:\Users\Erich\Documents\GitHub\hfcs\Save The Humans\Save The Humans\Save The Humans.WindowsPhone\obj\Debug\qualifiers.txt.intermediate
+C:\Users\Erich\Documents\GitHub\hfcs\Save The Humans\Save The Humans\Save The Humans.WindowsPhone\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\Erich\Documents\GitHub\hfcs\Save The Humans\Save The Humans\Save The Humans.WindowsPhone\obj\Debug\ProjectArchitectures.txt
