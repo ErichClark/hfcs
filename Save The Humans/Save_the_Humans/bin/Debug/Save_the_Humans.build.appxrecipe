@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>TRY8</Machine>
+    <WindowsUser>Erich</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>19fc5b3e-11d1-4897-b926-9827ab223b92</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\Erich\Downloads\hf_csharp\VS2013\Chapter_1\Save_the_Humans_pages_38-40\Save_the_Humans\obj\Debug\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Erich\Downloads\hf_csharp\VS2013\Chapter_1\Save_the_Humans_pages_38-40\Save_the_Humans\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Erich\Downloads\hf_csharp\VS2013\Chapter_1\Save_the_Humans_pages_38-40\Save_the_Humans\bin\Debug\Save_the_Humans.exe">
+      <PackagePath>Save_the_Humans.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Erich\Downloads\hf_csharp\VS2013\Chapter_1\Save_the_Humans_pages_38-40\Save_the_Humans\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Erich\Downloads\hf_csharp\VS2013\Chapter_1\Save_the_Humans_pages_38-40\Save_the_Humans\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Erich\Downloads\hf_csharp\VS2013\Chapter_1\Save_the_Humans_pages_38-40\Save_the_Humans\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Erich\Downloads\hf_csharp\VS2013\Chapter_1\Save_the_Humans_pages_38-40\Save_the_Humans\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Erich\Downloads\hf_csharp\VS2013\Chapter_1\Save_the_Humans_pages_38-40\Save_the_Humans\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Erich\Downloads\hf_csharp\VS2013\Chapter_1\Save_the_Humans_pages_38-40\Save_the_Humans\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Erich\Downloads\hf_csharp\VS2013\Chapter_1\Save_the_Humans_pages_38-40\Save_the_Humans\bin\Debug\Save_the_Humans.xr.xml">
+      <PackagePath>Save_the_Humans.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Erich\Downloads\hf_csharp\VS2013\Chapter_1\Save_the_Humans_pages_38-40\Save_the_Humans\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
