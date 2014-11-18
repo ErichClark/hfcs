@@ -30,3 +30,35 @@ C:\Users\Erich\Downloads\hf_csharp\VS2013\Chapter_1\Save_the_Humans_pages_38-40\
 C:\Users\Erich\Downloads\hf_csharp\VS2013\Chapter_1\Save_the_Humans_pages_38-40\Save_the_Humans\obj\Debug\qualifiers.txt.intermediate
 C:\Users\Erich\Downloads\hf_csharp\VS2013\Chapter_1\Save_the_Humans_pages_38-40\Save_the_Humans\obj\Debug\MultipleQualifiersPerDimensionFound.txt
 C:\Users\Erich\Downloads\hf_csharp\VS2013\Chapter_1\Save_the_Humans_pages_38-40\Save_the_Humans\obj\Debug\ProjectArchitectures.txt
+C:\Users\Erich\Documents\GitHub\hfcs\Save The Humans\Save_the_Humans\bin\Debug\App.xbf
+C:\Users\Erich\Documents\GitHub\hfcs\Save The Humans\Save_the_Humans\bin\Debug\MainPage.xbf
+C:\Users\Erich\Documents\GitHub\hfcs\Save The Humans\Save_the_Humans\bin\Debug\Save_the_Humans.xr.xml
+C:\Users\Erich\Documents\GitHub\hfcs\Save The Humans\Save_the_Humans\bin\Debug\Save_the_Humans.exe
+C:\Users\Erich\Documents\GitHub\hfcs\Save The Humans\Save_the_Humans\bin\Debug\Save_the_Humans.pdb
+C:\Users\Erich\Documents\GitHub\hfcs\Save The Humans\Save_the_Humans\bin\Debug\resources.pri
+C:\Users\Erich\Documents\GitHub\hfcs\Save The Humans\Save_the_Humans\bin\Debug\AppxManifest.xml
+C:\Users\Erich\Documents\GitHub\hfcs\Save The Humans\Save_the_Humans\bin\Debug\Save_the_Humans.build.appxrecipe
+C:\Users\Erich\Documents\GitHub\hfcs\Save The Humans\Save_the_Humans\obj\Debug\App.g.i.cs
+C:\Users\Erich\Documents\GitHub\hfcs\Save The Humans\Save_the_Humans\obj\Debug\App.g.cs
+C:\Users\Erich\Documents\GitHub\hfcs\Save The Humans\Save_the_Humans\obj\Debug\MainPage.g.i.cs
+C:\Users\Erich\Documents\GitHub\hfcs\Save The Humans\Save_the_Humans\obj\Debug\MainPage.g.cs
+C:\Users\Erich\Documents\GitHub\hfcs\Save The Humans\Save_the_Humans\obj\Debug\XamlTypeInfo.g.cs
+C:\Users\Erich\Documents\GitHub\hfcs\Save The Humans\Save_the_Humans\obj\Debug\App.xaml
+C:\Users\Erich\Documents\GitHub\hfcs\Save The Humans\Save_the_Humans\obj\Debug\App.xbf
+C:\Users\Erich\Documents\GitHub\hfcs\Save The Humans\Save_the_Humans\obj\Debug\XamlSaveStateFile.xml
+C:\Users\Erich\Documents\GitHub\hfcs\Save The Humans\Save_the_Humans\obj\Debug\MainPage.xaml
+C:\Users\Erich\Documents\GitHub\hfcs\Save The Humans\Save_the_Humans\obj\Debug\MainPage.xbf
+C:\Users\Erich\Documents\GitHub\hfcs\Save The Humans\Save_the_Humans\obj\Debug\Save_the_Humans.exe
+C:\Users\Erich\Documents\GitHub\hfcs\Save The Humans\Save_the_Humans\obj\Debug\Save_the_Humans.pdb
+C:\Users\Erich\Documents\GitHub\hfcs\Save The Humans\Save_the_Humans\obj\Debug\priconfig.xml
+C:\Users\Erich\Documents\GitHub\hfcs\Save The Humans\Save_the_Humans\obj\Debug\priconfig.xml.intermediate
+C:\Users\Erich\Documents\GitHub\hfcs\Save The Humans\Save_the_Humans\obj\Debug\layout.resfiles
+C:\Users\Erich\Documents\GitHub\hfcs\Save The Humans\Save_the_Humans\obj\Debug\layout.resfiles.intermediate
+C:\Users\Erich\Documents\GitHub\hfcs\Save The Humans\Save_the_Humans\obj\Debug\resources.resfiles
+C:\Users\Erich\Documents\GitHub\hfcs\Save The Humans\Save_the_Humans\obj\Debug\resources.resfiles.intermediate
+C:\Users\Erich\Documents\GitHub\hfcs\Save The Humans\Save_the_Humans\obj\Debug\pri.resfiles
+C:\Users\Erich\Documents\GitHub\hfcs\Save The Humans\Save_the_Humans\obj\Debug\pri.resfiles.intermediate
+C:\Users\Erich\Documents\GitHub\hfcs\Save The Humans\Save_the_Humans\obj\Debug\qualifiers.txt
+C:\Users\Erich\Documents\GitHub\hfcs\Save The Humans\Save_the_Humans\obj\Debug\qualifiers.txt.intermediate
+C:\Users\Erich\Documents\GitHub\hfcs\Save The Humans\Save_the_Humans\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\Erich\Documents\GitHub\hfcs\Save The Humans\Save_the_Humans\obj\Debug\ProjectArchitectures.txt

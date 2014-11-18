@@ -15,7 +15,17 @@
         <x:String x:Key="AppName">Save the Humans</x:String>
         <ControlTemplate x:Key="EnemyTemplate" TargetType="ContentControl">
             <Grid>
-                <Ellipse Fill="Red" Height="100" Stroke="Black" Width="100"/>
+                <Ellipse Fill="Gray" Height="100" Width="75" Stroke="Black" />
+                <Ellipse Fill="Black" HorizontalAlignment="Center" Height="35" Margin="40,20,70,0" Stroke="Black" VerticalAlignment="Top" Width="25" RenderTransformOrigin="0.5,0.5">
+                    <Ellipse.RenderTransform>
+                        <CompositeTransform SkewX="10"/>
+                    </Ellipse.RenderTransform>
+                </Ellipse>
+                <Ellipse Fill="Black" HorizontalAlignment="Center" Height="35" Margin="70,20,40,0" Stroke="Black" VerticalAlignment="Top" Width="25" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto">
+                    <Ellipse.RenderTransform>
+                        <CompositeTransform SkewX="-10"/>
+                    </Ellipse.RenderTransform>
+                </Ellipse>
             </Grid>
         </ControlTemplate>
     </Page.Resources>
@@ -43,7 +53,7 @@
         </Grid.RowDefinitions>
 
         <!-- Back button and page title -->
-        <Grid Grid.ColumnSpan="3">
+        <Grid x:Name="grid" Grid.ColumnSpan="3">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="120"/>
                 <ColumnDefinition Width="*"/>
@@ -63,19 +73,19 @@
             <ContentControl Content="ContentControl" Template="{StaticResource EnemyTemplate}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
         </StackPanel>
         <ProgressBar x:Name="progressBar" Grid.Column="1" Grid.Row="2" Height="20"/>
-        <Canvas x:Name="playArea" Grid.Row="1" Grid.ColumnSpan="3">
+        <Canvas x:Name="playArea" Grid.Row="1" Grid.ColumnSpan="3" PointerMoved="playArea_PointerMoved" PointerExited="playArea_PointerExited">
             <Canvas.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
-                    <GradientStop Color="#FFA640EE" />
-                    <GradientStop Color="#FF87EE40" Offset="1"/>
+                    <GradientStop Color="#FF111F7C" />
+                    <GradientStop Color="#FF31DE1F" Offset="1"/>
                 </LinearGradientBrush>
             </Canvas.Background>
-            <StackPanel x:Name="human" Orientation="Vertical">
+            <StackPanel x:Name="human" Orientation="Vertical" PointerPressed="human_PointerPressed">
                 <Ellipse Fill="White" Height="10" Stroke="Black" Width="10"/>
                 <Rectangle Fill="White" Height="25" Stroke="Black" Width="10"/>
             </StackPanel>
             <TextBlock x:Name="gameOverText" Canvas.Left="451" TextWrapping="Wrap" Text="Game Over" Canvas.Top="167" FontFamily="Arial Black" FontSize="100" FontWeight="Bold" FontStyle="Italic"/>
-            <Rectangle x:Name="target" Height="50" Stroke="Black" Width="50" Canvas.Left="889.617" Canvas.Top="123.844" RenderTransformOrigin="0.5,0.5">
+            <Rectangle x:Name="target" Height="50" Stroke="Black" Width="50" Canvas.Left="889.617" Canvas.Top="123.844" RenderTransformOrigin="0.5,0.5" PointerEntered="target_PointerEntered">
                 <Rectangle.RenderTransform>
                     <CompositeTransform Rotation="45"/>
                 </Rectangle.RenderTransform>

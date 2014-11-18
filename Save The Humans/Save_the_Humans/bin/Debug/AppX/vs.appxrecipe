@@ -7,7 +7,7 @@
     <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
     <PackageArchitecture>neutral</PackageArchitecture>
     <PackageIdentityName>19fc5b3e-11d1-4897-b926-9827ab223b92</PackageIdentityName>
-    <IntermediateOutputPath>C:\Users\Erich\Downloads\hf_csharp\VS2013\Chapter_1\Save_the_Humans_pages_38-40\Save_the_Humans\obj\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\Erich\Documents\GitHub\hfcs\Save The Humans\Save_the_Humans\obj\Debug\</IntermediateOutputPath>
     <RegisteredManifestChecksum>CD0C21722109839CA98F60694CEDB88B8BA0F0205A46531889DA691C7E91E566</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>19fc5b3e-11d1-4897-b926-9827ab223b92_1.0.0.0_neutral__mn5p86weg1sgm</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>19fc5b3e-11d1-4897-b926-9827ab223b92_mn5p86weg1sgm!App</RegisteredUserModeAppID>
@@ -17,50 +17,50 @@
     <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\Erich\Downloads\hf_csharp\VS2013\Chapter_1\Save_the_Humans_pages_38-40\Save_the_Humans\bin\Debug\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\Erich\Documents\GitHub\hfcs\Save The Humans\Save_the_Humans\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2014-11-14T04:06:50.900</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\Erich\Downloads\hf_csharp\VS2013\Chapter_1\Save_the_Humans_pages_38-40\Save_the_Humans\bin\Debug\Save_the_Humans.exe">
+    <AppxPackagedFile Include="C:\Users\Erich\Documents\GitHub\hfcs\Save The Humans\Save_the_Humans\bin\Debug\Save_the_Humans.exe">
       <PackagePath>Save_the_Humans.exe</PackagePath>
-      <Modified>2014-11-14T04:06:49.228</Modified>
+      <Modified>2014-11-18T07:49:53.350</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Erich\Downloads\hf_csharp\VS2013\Chapter_1\Save_the_Humans_pages_38-40\Save_the_Humans\Assets\Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Erich\Documents\GitHub\hfcs\Save The Humans\Save_the_Humans\Assets\Logo.scale-100.png">
       <PackagePath>Assets\Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2014-11-14T04:04:20.603</Modified>
+      <Modified>2014-11-14T04:03:35.873</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Erich\Downloads\hf_csharp\VS2013\Chapter_1\Save_the_Humans_pages_38-40\Save_the_Humans\Assets\SmallLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Erich\Documents\GitHub\hfcs\Save The Humans\Save_the_Humans\Assets\SmallLogo.scale-100.png">
       <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2014-11-14T04:04:20.634</Modified>
+      <Modified>2014-11-14T04:03:35.889</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Erich\Downloads\hf_csharp\VS2013\Chapter_1\Save_the_Humans_pages_38-40\Save_the_Humans\Assets\SplashScreen.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Erich\Documents\GitHub\hfcs\Save The Humans\Save_the_Humans\Assets\SplashScreen.scale-100.png">
       <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2014-11-14T04:04:20.666</Modified>
+      <Modified>2014-11-14T04:03:35.920</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Erich\Downloads\hf_csharp\VS2013\Chapter_1\Save_the_Humans_pages_38-40\Save_the_Humans\Assets\StoreLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Erich\Documents\GitHub\hfcs\Save The Humans\Save_the_Humans\Assets\StoreLogo.scale-100.png">
       <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2014-11-14T04:04:20.681</Modified>
+      <Modified>2014-11-14T04:04:21.181</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Erich\Downloads\hf_csharp\VS2013\Chapter_1\Save_the_Humans_pages_38-40\Save_the_Humans\bin\Debug\App.xbf">
+    <AppxPackagedFile Include="C:\Users\Erich\Documents\GitHub\hfcs\Save The Humans\Save_the_Humans\bin\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
       <Modified>2014-11-14T04:06:48.496</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Erich\Downloads\hf_csharp\VS2013\Chapter_1\Save_the_Humans_pages_38-40\Save_the_Humans\bin\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="C:\Users\Erich\Documents\GitHub\hfcs\Save The Humans\Save_the_Humans\bin\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2014-11-14T04:06:48.496</Modified>
+      <Modified>2014-11-18T07:49:52.746</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Erich\Downloads\hf_csharp\VS2013\Chapter_1\Save_the_Humans_pages_38-40\Save_the_Humans\bin\Debug\Save_the_Humans.xr.xml">
+    <AppxPackagedFile Include="C:\Users\Erich\Documents\GitHub\hfcs\Save The Humans\Save_the_Humans\bin\Debug\Save_the_Humans.xr.xml">
       <PackagePath>Save_the_Humans.xr.xml</PackagePath>
-      <Modified>2014-11-14T04:06:48.371</Modified>
+      <Modified>2014-11-18T07:49:52.641</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Erich\Downloads\hf_csharp\VS2013\Chapter_1\Save_the_Humans_pages_38-40\Save_the_Humans\bin\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\Erich\Documents\GitHub\hfcs\Save The Humans\Save_the_Humans\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <Modified>2014-11-14T04:06:50.103</Modified>
     </AppxPackagedFile>
