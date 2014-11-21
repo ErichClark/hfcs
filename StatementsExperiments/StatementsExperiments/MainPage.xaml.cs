@@ -29,22 +29,61 @@ namespace StatementsExperiments
 
         private void button1_Click(object sender, RoutedEventArgs e)
         {
+            string name = "Erich";
+            int x = 3;
+            double d = 0;
 
+            x = x * 17;
+            d = Math.PI / 2;
+            myLabel.Text = "name is " + name
+                + "\nx is " + x
+                + "\nd is " + d;
         }
 
         private void button2_Click(object sender, RoutedEventArgs e)
         {
+            int x = 10;
 
+            if (x == 10)
+            {
+                myLabel.Text = "x must be 10";
+            }
+            else
+            {
+                myLabel.Text = "x isn't 10";
+            }
         }
 
         private void button3_Click(object sender, RoutedEventArgs e)
         {
+            int someValue = 4;
+            string name = "Bobbo Jr.";
 
+            if((someValue == 3) && (name == "Joe"))
+            {
+                myLabel.Text = "x is 3 and the name is Joe";
+            }
+
+            myLabel.Text = "this line runs no matter what";
         }
 
         private void button4_Click(object sender, RoutedEventArgs e)
         {
+            int p = 2;
+            int loopCount = 0;
 
+            for (int q = 2; q < 32; q = q *2 )
+            {
+                while (p < q)
+                {
+                    p = p * 2;
+                }
+
+                q = p - q;
+                loopCount++;
+            }
+
+            myLabel.Text = "The number of loops was " + loopCount;
         }
     }
 }
