@@ -16,9 +16,23 @@
             <RowDefinition/>
             <RowDefinition/>
         </Grid.RowDefinitions>
-        <Button x:Name="changeText" Content="Change the label if checked" HorizontalAlignment="Left" Margin="90,70,0,0" VerticalAlignment="Top"/>
-        <CheckBox x:Name="enableCheckbox" Content="Enable label changing" HorizontalAlignment="Left" Margin="458,105,0,0" VerticalAlignment="Top" IsChecked="True"/>
-        <TextBlock HorizontalAlignment="Left" Margin="248,255,0,0" TextWrapping="Wrap" Text="Press the button to change my text" VerticalAlignment="Top" FontSize="24" Grid.Row="1"/>
+        <Button x:ConnectionId='1' x:Name="changeText" 
+                Content="Change the label if checked" 
+                HorizontalAlignment="Center"
+                                        />
+        <CheckBox x:ConnectionId='2' x:Name="enableCheckbox" 
+                  Content="Enable label changing" 
+                  IsChecked="true" 
+                  Grid.Column="1" 
+                  HorizontalAlignment="Center" 
+                                                  />
+        <TextBlock x:Name="labelToChange" HorizontalAlignment="Center" 
+                   TextWrapping="Wrap" 
+                   Text="Press the button to change my text" 
+                   VerticalAlignment="Center" 
+                   FontSize="24" 
+                   Grid.Row="1" 
+                   Grid.ColumnSpan="2"/>
 
     </Grid>
 </Page>

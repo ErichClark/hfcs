@@ -29,7 +29,38 @@ namespace PracticeUsingIfElse
 
         private void enableCheckbox_Checked(object sender, RoutedEventArgs e)
         {
+            if (enableCheckbox.IsChecked == true)
+            {
+                enableCheckbox.IsChecked = false;
+            }
+            else
+            {
+                enableCheckbox.IsChecked = true;
+            }
+        }
+
+        private void changeText_Click(object sender, RoutedEventArgs e)
+        {
+            if (enableCheckbox.IsChecked == true)
+            {
+                if (labelToChange.Text == "Left")
+                {
+                    labelToChange.HorizontalAlignment = HorizontalAlignment.Right;
+                    labelToChange.Text = "Right";
+                }
+                else
+                {
+                    labelToChange.HorizontalAlignment = HorizontalAlignment.Left;
+                    labelToChange.Text = "Left";
+                }
+            }
+            else
+            {
+                labelToChange.HorizontalAlignment = HorizontalAlignment.Center;
+                labelToChange.Text = "Text changing is disabled";
+            }
 
         }
     }
-}
+
+    }
