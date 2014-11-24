@@ -1,0 +1,9 @@
+C:\Users\Erich\Documents\GitHub\hfcs\FlashyThingVs13\FlashyThingVs13\bin\Debug\FlashyThingVs13.exe.config
+C:\Users\Erich\Documents\GitHub\hfcs\FlashyThingVs13\FlashyThingVs13\bin\Debug\FlashyThingVs13.exe
+C:\Users\Erich\Documents\GitHub\hfcs\FlashyThingVs13\FlashyThingVs13\bin\Debug\FlashyThingVs13.pdb
+C:\Users\Erich\Documents\GitHub\hfcs\FlashyThingVs13\FlashyThingVs13\obj\Debug\FlashyThingVs13.csprojResolveAssemblyReference.cache
+C:\Users\Erich\Documents\GitHub\hfcs\FlashyThingVs13\FlashyThingVs13\obj\Debug\FlashyThingVs13.FlashyThing.resources
+C:\Users\Erich\Documents\GitHub\hfcs\FlashyThingVs13\FlashyThingVs13\obj\Debug\FlashyThingVs13.Properties.Resources.resources
+C:\Users\Erich\Documents\GitHub\hfcs\FlashyThingVs13\FlashyThingVs13\obj\Debug\FlashyThingVs13.csproj.GenerateResource.Cache
+C:\Users\Erich\Documents\GitHub\hfcs\FlashyThingVs13\FlashyThingVs13\obj\Debug\FlashyThingVs13.exe
+C:\Users\Erich\Documents\GitHub\hfcs\FlashyThingVs13\FlashyThingVs13\obj\Debug\FlashyThingVs13.pdb
