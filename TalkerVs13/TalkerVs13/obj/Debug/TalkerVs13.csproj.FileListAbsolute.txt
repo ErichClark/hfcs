@@ -1,0 +1,9 @@
+C:\Users\Erich\Documents\GitHub\hfcs\TalkerVs13\TalkerVs13\bin\Debug\TalkerVs13.exe.config
+C:\Users\Erich\Documents\GitHub\hfcs\TalkerVs13\TalkerVs13\obj\Debug\TalkerVs13.csprojResolveAssemblyReference.cache
+C:\Users\Erich\Documents\GitHub\hfcs\TalkerVs13\TalkerVs13\obj\Debug\TalkerVs13.Form1.resources
+C:\Users\Erich\Documents\GitHub\hfcs\TalkerVs13\TalkerVs13\obj\Debug\TalkerVs13.Properties.Resources.resources
+C:\Users\Erich\Documents\GitHub\hfcs\TalkerVs13\TalkerVs13\obj\Debug\TalkerVs13.csproj.GenerateResource.Cache
+C:\Users\Erich\Documents\GitHub\hfcs\TalkerVs13\TalkerVs13\bin\Debug\TalkerVs13.exe
+C:\Users\Erich\Documents\GitHub\hfcs\TalkerVs13\TalkerVs13\bin\Debug\TalkerVs13.pdb
+C:\Users\Erich\Documents\GitHub\hfcs\TalkerVs13\TalkerVs13\obj\Debug\TalkerVs13.exe
+C:\Users\Erich\Documents\GitHub\hfcs\TalkerVs13\TalkerVs13\obj\Debug\TalkerVs13.pdb

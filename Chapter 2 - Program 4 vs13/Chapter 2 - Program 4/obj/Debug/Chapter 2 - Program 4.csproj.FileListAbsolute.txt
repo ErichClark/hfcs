@@ -7,3 +7,6 @@ C:\Users\Erich\Documents\GitHub\vs13\Chapter 2 - Program 4\Chapter 2 - Program 4
 C:\Users\Erich\Documents\GitHub\vs13\Chapter 2 - Program 4\Chapter 2 - Program 4\bin\Debug\Chapter 2 - Program 4.exe.config
 C:\Users\Erich\Documents\GitHub\vs13\Chapter 2 - Program 4\Chapter 2 - Program 4\bin\Debug\Chapter 2 - Program 4.exe
 C:\Users\Erich\Documents\GitHub\vs13\Chapter 2 - Program 4\Chapter 2 - Program 4\obj\Debug\Chapter 2 - Program 4.exe
+C:\Users\Erich\Documents\GitHub\hfcs\Chapter 2 - Program 4 vs13\Chapter 2 - Program 4\bin\Debug\Chapter 2 - Program 4.exe.config
+C:\Users\Erich\Documents\GitHub\hfcs\Chapter 2 - Program 4 vs13\Chapter 2 - Program 4\obj\Debug\Chapter 2 - Program 4.exe
+C:\Users\Erich\Documents\GitHub\hfcs\Chapter 2 - Program 4 vs13\Chapter 2 - Program 4\obj\Debug\Chapter 2 - Program 4.pdb

@@ -1,0 +1,9 @@
+C:\Users\Erich\Documents\GitHub\hfcs\FunWithJoeAndBobVs13\FunWithJoeAndBobVs13\bin\Debug\FunWithJoeAndBobVs13.exe.config
+C:\Users\Erich\Documents\GitHub\hfcs\FunWithJoeAndBobVs13\FunWithJoeAndBobVs13\bin\Debug\FunWithJoeAndBobVs13.exe
+C:\Users\Erich\Documents\GitHub\hfcs\FunWithJoeAndBobVs13\FunWithJoeAndBobVs13\bin\Debug\FunWithJoeAndBobVs13.pdb
+C:\Users\Erich\Documents\GitHub\hfcs\FunWithJoeAndBobVs13\FunWithJoeAndBobVs13\obj\Debug\FunWithJoeAndBobVs13.csprojResolveAssemblyReference.cache
+C:\Users\Erich\Documents\GitHub\hfcs\FunWithJoeAndBobVs13\FunWithJoeAndBobVs13\obj\Debug\FunWithJoeAndBobVs13.Form1.resources
+C:\Users\Erich\Documents\GitHub\hfcs\FunWithJoeAndBobVs13\FunWithJoeAndBobVs13\obj\Debug\FunWithJoeAndBobVs13.Properties.Resources.resources
+C:\Users\Erich\Documents\GitHub\hfcs\FunWithJoeAndBobVs13\FunWithJoeAndBobVs13\obj\Debug\FunWithJoeAndBobVs13.csproj.GenerateResource.Cache
+C:\Users\Erich\Documents\GitHub\hfcs\FunWithJoeAndBobVs13\FunWithJoeAndBobVs13\obj\Debug\FunWithJoeAndBobVs13.exe
+C:\Users\Erich\Documents\GitHub\hfcs\FunWithJoeAndBobVs13\FunWithJoeAndBobVs13\obj\Debug\FunWithJoeAndBobVs13.pdb
