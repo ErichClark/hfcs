@@ -1,0 +1,9 @@
+C:\Users\Erich\Documents\GitHub\hfcs\MenuMakerVs13\MenuMakerVs13\bin\Debug\MenuMakerVs13.exe.config
+C:\Users\Erich\Documents\GitHub\hfcs\MenuMakerVs13\MenuMakerVs13\bin\Debug\MenuMakerVs13.exe
+C:\Users\Erich\Documents\GitHub\hfcs\MenuMakerVs13\MenuMakerVs13\bin\Debug\MenuMakerVs13.pdb
+C:\Users\Erich\Documents\GitHub\hfcs\MenuMakerVs13\MenuMakerVs13\obj\Debug\MenuMakerVs13.csprojResolveAssemblyReference.cache
+C:\Users\Erich\Documents\GitHub\hfcs\MenuMakerVs13\MenuMakerVs13\obj\Debug\MenuMakerVs13.Form1.resources
+C:\Users\Erich\Documents\GitHub\hfcs\MenuMakerVs13\MenuMakerVs13\obj\Debug\MenuMakerVs13.Properties.Resources.resources
+C:\Users\Erich\Documents\GitHub\hfcs\MenuMakerVs13\MenuMakerVs13\obj\Debug\MenuMakerVs13.csproj.GenerateResource.Cache
+C:\Users\Erich\Documents\GitHub\hfcs\MenuMakerVs13\MenuMakerVs13\obj\Debug\MenuMakerVs13.exe
+C:\Users\Erich\Documents\GitHub\hfcs\MenuMakerVs13\MenuMakerVs13\obj\Debug\MenuMakerVs13.pdb

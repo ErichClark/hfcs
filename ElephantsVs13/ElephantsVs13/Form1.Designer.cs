@@ -31,6 +31,7 @@
             this.lloydButton = new System.Windows.Forms.Button();
             this.swapButton = new System.Windows.Forms.Button();
             this.lucindaButton = new System.Windows.Forms.Button();
+            this.weirdButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lloydButton
@@ -42,6 +43,7 @@
             this.lloydButton.TabIndex = 0;
             this.lloydButton.Text = "Lloyd";
             this.lloydButton.UseVisualStyleBackColor = true;
+            this.lloydButton.Click += new System.EventHandler(this.lloydButton_Click);
             // 
             // swapButton
             // 
@@ -51,6 +53,7 @@
             this.swapButton.TabIndex = 1;
             this.swapButton.Text = "Swap!";
             this.swapButton.UseVisualStyleBackColor = true;
+            this.swapButton.Click += new System.EventHandler(this.swapButton_Click);
             // 
             // lucindaButton
             // 
@@ -60,12 +63,24 @@
             this.lucindaButton.TabIndex = 2;
             this.lucindaButton.Text = "Lucinda";
             this.lucindaButton.UseVisualStyleBackColor = true;
+            this.lucindaButton.Click += new System.EventHandler(this.lucindaButton_Click);
+            // 
+            // weirdButton
+            // 
+            this.weirdButton.Location = new System.Drawing.Point(59, 150);
+            this.weirdButton.Name = "weirdButton";
+            this.weirdButton.Size = new System.Drawing.Size(150, 40);
+            this.weirdButton.TabIndex = 3;
+            this.weirdButton.Text = "WeirdButton";
+            this.weirdButton.UseVisualStyleBackColor = true;
+            this.weirdButton.Click += new System.EventHandler(this.weirdButton_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(278, 158);
+            this.ClientSize = new System.Drawing.Size(278, 206);
+            this.Controls.Add(this.weirdButton);
             this.Controls.Add(this.lucindaButton);
             this.Controls.Add(this.swapButton);
             this.Controls.Add(this.lloydButton);
@@ -80,6 +95,7 @@
         private System.Windows.Forms.Button lloydButton;
         private System.Windows.Forms.Button swapButton;
         private System.Windows.Forms.Button lucindaButton;
+        private System.Windows.Forms.Button weirdButton;
     }
 }
 

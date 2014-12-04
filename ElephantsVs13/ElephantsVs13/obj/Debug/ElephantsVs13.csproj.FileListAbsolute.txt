@@ -1,1 +1,9 @@
 C:\Users\Erich\Documents\GitHub\hfcs\ElephantsVs13\ElephantsVs13\bin\Debug\ElephantsVs13.exe.config
+C:\Users\Erich\Documents\GitHub\hfcs\ElephantsVs13\ElephantsVs13\bin\Debug\ElephantsVs13.exe
+C:\Users\Erich\Documents\GitHub\hfcs\ElephantsVs13\ElephantsVs13\bin\Debug\ElephantsVs13.pdb
+C:\Users\Erich\Documents\GitHub\hfcs\ElephantsVs13\ElephantsVs13\obj\Debug\ElephantsVs13.csprojResolveAssemblyReference.cache
+C:\Users\Erich\Documents\GitHub\hfcs\ElephantsVs13\ElephantsVs13\obj\Debug\ElephantsVs13.Properties.Resources.resources
+C:\Users\Erich\Documents\GitHub\hfcs\ElephantsVs13\ElephantsVs13\obj\Debug\ElephantsVs13.csproj.GenerateResource.Cache
+C:\Users\Erich\Documents\GitHub\hfcs\ElephantsVs13\ElephantsVs13\obj\Debug\ElephantsVs13.exe
+C:\Users\Erich\Documents\GitHub\hfcs\ElephantsVs13\ElephantsVs13\obj\Debug\ElephantsVs13.pdb
+C:\Users\Erich\Documents\GitHub\hfcs\ElephantsVs13\ElephantsVs13\obj\Debug\ElephantsVs13.Form1.resources
