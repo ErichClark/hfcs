@@ -15,7 +15,7 @@ namespace MileageCalculatorVs13
         int startingMileage;
         int endingMileage;
         double milesTraveled;
-        double reimburseRate = .39;
+        double reimburseRate = 0.39;
         double amountOwed;
         
         public Form1()
@@ -34,6 +34,8 @@ namespace MileageCalculatorVs13
                 milesTraveled = endingMileage - startingMileage;
                 amountOwed = milesTraveled * reimburseRate;
 
+                milesTraveledLabel.Text = "   " + milesTraveled;
+                rateLabel.Text = "$" + reimburseRate;
                 amountOwedLabel.Text = "$" + amountOwed;
             }
             else
@@ -41,6 +43,11 @@ namespace MileageCalculatorVs13
                 MessageBox.Show("The starting mileage must be less than the ending mileage.",
                     "Cannot Calculate Mileage");
             }
+        }
+
+        private void displayMilesButton_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show(milesTraveled + " miles", "Miles Traveled");
         } 
     }
 }

@@ -35,6 +35,10 @@
             this.endMiles = new System.Windows.Forms.NumericUpDown();
             this.owedText = new System.Windows.Forms.Label();
             this.calculateButton = new System.Windows.Forms.Button();
+            this.rateLabel = new System.Windows.Forms.Label();
+            this.milesTraveledLabel = new System.Windows.Forms.Label();
+            this.rateText = new System.Windows.Forms.Label();
+            this.milesTraveledText = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.startMiles)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.endMiles)).BeginInit();
             this.SuspendLayout();
@@ -61,11 +65,11 @@
             // 
             this.amountOwedLabel.AutoSize = true;
             this.amountOwedLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.amountOwedLabel.Location = new System.Drawing.Point(162, 100);
+            this.amountOwedLabel.Location = new System.Drawing.Point(162, 262);
             this.amountOwedLabel.Name = "amountOwedLabel";
-            this.amountOwedLabel.Size = new System.Drawing.Size(85, 29);
+            this.amountOwedLabel.Size = new System.Drawing.Size(48, 29);
             this.amountOwedLabel.TabIndex = 2;
-            this.amountOwedLabel.Text = "label1";
+            this.amountOwedLabel.Text = "$ 0";
             // 
             // startMiles
             // 
@@ -106,7 +110,7 @@
             this.endMiles.Size = new System.Drawing.Size(120, 26);
             this.endMiles.TabIndex = 4;
             this.endMiles.Value = new decimal(new int[] {
-            1,
+            2,
             0,
             0,
             0});
@@ -114,7 +118,7 @@
             // owedText
             // 
             this.owedText.AutoSize = true;
-            this.owedText.Location = new System.Drawing.Point(31, 100);
+            this.owedText.Location = new System.Drawing.Point(27, 271);
             this.owedText.Name = "owedText";
             this.owedText.Size = new System.Drawing.Size(107, 20);
             this.owedText.TabIndex = 5;
@@ -122,7 +126,7 @@
             // 
             // calculateButton
             // 
-            this.calculateButton.Location = new System.Drawing.Point(167, 132);
+            this.calculateButton.Location = new System.Drawing.Point(167, 109);
             this.calculateButton.Name = "calculateButton";
             this.calculateButton.Size = new System.Drawing.Size(120, 45);
             this.calculateButton.TabIndex = 6;
@@ -130,11 +134,54 @@
             this.calculateButton.UseVisualStyleBackColor = true;
             this.calculateButton.Click += new System.EventHandler(this.calculateButton_Click);
             // 
+            // rateLabel
+            // 
+            this.rateLabel.AutoSize = true;
+            this.rateLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rateLabel.Location = new System.Drawing.Point(162, 217);
+            this.rateLabel.Name = "rateLabel";
+            this.rateLabel.Size = new System.Drawing.Size(77, 29);
+            this.rateLabel.TabIndex = 7;
+            this.rateLabel.Text = "$ 0.00";
+            // 
+            // milesTraveledLabel
+            // 
+            this.milesTraveledLabel.AutoSize = true;
+            this.milesTraveledLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.milesTraveledLabel.Location = new System.Drawing.Point(162, 176);
+            this.milesTraveledLabel.Name = "milesTraveledLabel";
+            this.milesTraveledLabel.Size = new System.Drawing.Size(44, 29);
+            this.milesTraveledLabel.TabIndex = 8;
+            this.milesTraveledLabel.Text = "   0";
+            // 
+            // rateText
+            // 
+            this.rateText.AutoSize = true;
+            this.rateText.Location = new System.Drawing.Point(27, 226);
+            this.rateText.Name = "rateText";
+            this.rateText.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.rateText.Size = new System.Drawing.Size(103, 20);
+            this.rateText.TabIndex = 9;
+            this.rateText.Text = "Rate per Mile";
+            // 
+            // milesTraveledText
+            // 
+            this.milesTraveledText.AutoSize = true;
+            this.milesTraveledText.Location = new System.Drawing.Point(27, 183);
+            this.milesTraveledText.Name = "milesTraveledText";
+            this.milesTraveledText.Size = new System.Drawing.Size(109, 20);
+            this.milesTraveledText.TabIndex = 10;
+            this.milesTraveledText.Text = "Miles Traveled";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(328, 205);
+            this.ClientSize = new System.Drawing.Size(328, 300);
+            this.Controls.Add(this.milesTraveledText);
+            this.Controls.Add(this.rateText);
+            this.Controls.Add(this.milesTraveledLabel);
+            this.Controls.Add(this.rateLabel);
             this.Controls.Add(this.calculateButton);
             this.Controls.Add(this.owedText);
             this.Controls.Add(this.endMiles);
@@ -162,6 +209,10 @@
         private System.Windows.Forms.NumericUpDown endMiles;
         private System.Windows.Forms.Label owedText;
         private System.Windows.Forms.Button calculateButton;
+        private System.Windows.Forms.Label rateLabel;
+        private System.Windows.Forms.Label milesTraveledLabel;
+        private System.Windows.Forms.Label rateText;
+        private System.Windows.Forms.Label milesTraveledText;
     }
 }
 
