@@ -54,9 +54,15 @@ namespace ElephantsVs13
 
         private void weirdButton_Click(object sender, EventArgs e)
         {
+            lloyd.TellMe("Hi", lucinda);
             lloyd = lucinda;
             lloyd.EarSize = 4321;
             lloyd.WhoAmI();
+        }
+
+        public void SpeakTo(Elephant whoToTalkTo, string message)
+        {
+            whoToTalkTo.TellMe(message.this);
         }
     }
 }
@@ -69,5 +75,10 @@ class Elephant
     public void WhoAmI()
     {
         MessageBox.Show("My ears are " + EarSize + " inches tall.", Name + " says...");
+    }
+
+    public void TellMe(string message, Elephant whoSaidIt)
+    {
+        MessageBox.Show(whoSaidIt.Name + " says: " + message);
     }
 }
