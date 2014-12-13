@@ -57,6 +57,7 @@
             // 
             // dog1pictureBox
             // 
+            this.dog1pictureBox.Image = global::DayAtTheRacesVs13.Properties.Resources.dog;
             this.dog1pictureBox.Location = new System.Drawing.Point(10, 12);
             this.dog1pictureBox.Name = "dog1pictureBox";
             this.dog1pictureBox.Size = new System.Drawing.Size(860, 85);
@@ -65,6 +66,7 @@
             // 
             // dog3pictureBox
             // 
+            this.dog3pictureBox.Image = global::DayAtTheRacesVs13.Properties.Resources.dog;
             this.dog3pictureBox.Location = new System.Drawing.Point(11, 195);
             this.dog3pictureBox.Name = "dog3pictureBox";
             this.dog3pictureBox.Size = new System.Drawing.Size(860, 85);
@@ -73,6 +75,7 @@
             // 
             // dog4pictureBox
             // 
+            this.dog4pictureBox.Image = global::DayAtTheRacesVs13.Properties.Resources.dog;
             this.dog4pictureBox.Location = new System.Drawing.Point(11, 286);
             this.dog4pictureBox.Name = "dog4pictureBox";
             this.dog4pictureBox.Size = new System.Drawing.Size(860, 85);
@@ -214,6 +217,7 @@
             // 
             // dog2pictureBox
             // 
+            this.dog2pictureBox.Image = global::DayAtTheRacesVs13.Properties.Resources.dog;
             this.dog2pictureBox.Location = new System.Drawing.Point(11, 104);
             this.dog2pictureBox.Name = "dog2pictureBox";
             this.dog2pictureBox.Size = new System.Drawing.Size(860, 85);
@@ -250,7 +254,6 @@
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "A Day ay the Races";
-
             ((System.ComponentModel.ISupportInitialize)(this.dog1pictureBox)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dog3pictureBox)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dog4pictureBox)).EndInit();

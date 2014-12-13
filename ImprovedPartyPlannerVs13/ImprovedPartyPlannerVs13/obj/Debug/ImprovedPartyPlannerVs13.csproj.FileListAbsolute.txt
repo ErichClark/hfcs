@@ -1,0 +1,9 @@
+C:\Users\Erich\Documents\GitHub\hfcs\ImprovedPartyPlannerVs13\ImprovedPartyPlannerVs13\bin\Debug\ImprovedPartyPlannerVs13.exe.config
+C:\Users\Erich\Documents\GitHub\hfcs\ImprovedPartyPlannerVs13\ImprovedPartyPlannerVs13\bin\Debug\ImprovedPartyPlannerVs13.exe
+C:\Users\Erich\Documents\GitHub\hfcs\ImprovedPartyPlannerVs13\ImprovedPartyPlannerVs13\bin\Debug\ImprovedPartyPlannerVs13.pdb
+C:\Users\Erich\Documents\GitHub\hfcs\ImprovedPartyPlannerVs13\ImprovedPartyPlannerVs13\obj\Debug\ImprovedPartyPlannerVs13.csprojResolveAssemblyReference.cache
+C:\Users\Erich\Documents\GitHub\hfcs\ImprovedPartyPlannerVs13\ImprovedPartyPlannerVs13\obj\Debug\ImprovedPartyPlannerVs13.Form1.resources
+C:\Users\Erich\Documents\GitHub\hfcs\ImprovedPartyPlannerVs13\ImprovedPartyPlannerVs13\obj\Debug\ImprovedPartyPlannerVs13.Properties.Resources.resources
+C:\Users\Erich\Documents\GitHub\hfcs\ImprovedPartyPlannerVs13\ImprovedPartyPlannerVs13\obj\Debug\ImprovedPartyPlannerVs13.csproj.GenerateResource.Cache
+C:\Users\Erich\Documents\GitHub\hfcs\ImprovedPartyPlannerVs13\ImprovedPartyPlannerVs13\obj\Debug\ImprovedPartyPlannerVs13.exe
+C:\Users\Erich\Documents\GitHub\hfcs\ImprovedPartyPlannerVs13\ImprovedPartyPlannerVs13\obj\Debug\ImprovedPartyPlannerVs13.pdb
