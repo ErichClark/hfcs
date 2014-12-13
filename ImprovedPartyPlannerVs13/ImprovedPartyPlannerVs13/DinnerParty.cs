@@ -25,6 +25,7 @@ namespace ImprovedPartyPlannerVs13
         // This class does all of the cost calculations 
         public decimal CostOfParty(int numberOfGuests, bool fancy, bool healthy)
         {
+            // resets totalCost variable 
             decimal totalCost = 0;
 
             // add food cost to total
