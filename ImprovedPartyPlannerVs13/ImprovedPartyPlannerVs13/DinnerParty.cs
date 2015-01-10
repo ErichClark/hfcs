@@ -11,16 +11,16 @@ namespace ImprovedPartyPlannerVs13
         
         // All fee variables are private, constant, and all in one place
         // NO MAGIC NUMBERS and a minimal quantity of variables
-        private const decimal foodFeePerPerson = 25.00M; 
+        private const decimal FOOD_FEE_PER_PERSON = 25.00M; 
         
-        private const decimal fancyCost = 15.00M;
-        private const decimal fancyFee = 50M;
-        private const decimal notFancyCost = 5.00M;
-        private const decimal notFancyFee = 30M;
+        private const decimal FANCY_COST = 15.00M;
+        private const decimal FANCY_FEE = 50M;
+        private const decimal NOT_FANCY_COST = 5.00M;
+        private const decimal NOT_FANCY_FEE = 30M;
         
-        private const decimal notHealthyCost = 20.00M;
-        private const decimal healthyCost = 5.00M;
-        private const decimal healthyDiscount = 0.05M;
+        private const decimal NOT_HEALTHY_COST = 20.00M;
+        private const decimal HEALTHY_COST = 5.00M;
+        private const decimal HEALTHY_DISCOUNT = 0.05M;
 
         // This class does all of the cost calculations 
         public decimal CostOfParty(int numberOfGuests, bool fancy, bool healthy)
@@ -29,30 +29,30 @@ namespace ImprovedPartyPlannerVs13
             decimal totalCost = 0;
 
             // add food cost to total
-            totalCost = totalCost + (numberOfGuests * foodFeePerPerson);
+            totalCost = totalCost + (numberOfGuests * FOOD_FEE_PER_PERSON);
  
             // add cost of decorations per person
             if (fancy)
             {
-                totalCost = totalCost + (numberOfGuests * fancyCost);
-                totalCost += fancyFee;
+                totalCost = totalCost + (numberOfGuests * FANCY_COST);
+                totalCost += FANCY_FEE;
             }
             else
             {
-                totalCost = totalCost + (numberOfGuests * notFancyCost);
-                totalCost += notFancyFee;
+                totalCost = totalCost + (numberOfGuests * NOT_FANCY_COST);
+                totalCost += NOT_FANCY_FEE;
             }
 
             // add drinks cost and apply discount
             if (healthy)
             {
-                totalCost = totalCost + (numberOfGuests * healthyCost);
+                totalCost = totalCost + (numberOfGuests * HEALTHY_COST);
 
-                totalCost = totalCost - (numberOfGuests * healthyDiscount);
+                totalCost = totalCost - (numberOfGuests * HEALTHY_DISCOUNT);
             }
             else
             {
-                totalCost = totalCost + (numberOfGuests * notHealthyCost);
+                totalCost = totalCost + (numberOfGuests * NOT_HEALTHY_COST);
             }
 
             return totalCost;
