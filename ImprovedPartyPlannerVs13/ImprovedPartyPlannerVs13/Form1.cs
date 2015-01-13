@@ -13,41 +13,66 @@ namespace ImprovedPartyPlannerVs13
     public partial class Form1 : Form
     {
         DinnerParty dinnerParty;
-        public int numberOfGuestsHolder;
-        public decimal Cost = 0;
+        public int numberOfDinnerGuestsHolder;
+        public string cakeSize;
+        public decimal DinnerCost = 0;
+
+        BirthdayParty birthdayParty;
+        public int numberOfBirthdayGuestsHolder;
+        public decimal BirthdayCost = 0;
         
         public Form1()
         {
             InitializeComponent();
             dinnerParty = new DinnerParty();
+            birthdayParty = new BirthdayParty();
 
-            UpdateDisplay();
+            UpdateDinnerDisplay();
+            UpdateBirthdayDisplay();
 
         }
 
-        private void UpdateDisplay()
+        private void UpdateBirthdayDisplay()
+        {
+            
+            throw new NotImplementedException();
+        }
+
+
+
+        private void UpdateDinnerDisplay()
         {
             
 
-            numberOfGuestsHolder = (int)guestCountUpDown.Value;
-            Cost = dinnerParty.CostOfParty(numberOfGuestsHolder, !healthyBox.Checked, !fancyBox.Checked);
+            numberOfDinnerGuestsHolder = (int)dinnerGuestCountUpDown.Value;
+            DinnerCost = dinnerParty.CostOfParty(numberOfDinnerGuestsHolder, !healthyBox.Checked, !fancyBox.Checked);
 
-            costDisplay.Text = Cost.ToString("c");
+            costDisplay.Text = DinnerCost.ToString("c");
         }
 
         private void guestCountUpDown_ValueChanged(object sender, EventArgs e)
         {
-            UpdateDisplay();
+            UpdateDinnerDisplay();
         }
 
         private void fancyBox_CheckedChanged(object sender, EventArgs e)
         {
-            UpdateDisplay();
+            UpdateDinnerDisplay();
         }
 
         private void healthyBox_CheckedChanged(object sender, EventArgs e)
         {
-            UpdateDisplay();
+            UpdateDinnerDisplay();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void birthdayPartyTab_Click(object sender, EventArgs e)
+        {
+            UpdateBirthdayDisplay();
         }
     }
 }
