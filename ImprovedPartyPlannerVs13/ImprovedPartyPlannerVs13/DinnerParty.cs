@@ -22,11 +22,18 @@ namespace ImprovedPartyPlannerVs13
         private const decimal HEALTHY_COST = 5.00M;
         private const decimal HEALTHY_DISCOUNT = 0.05M;
 
+        private const int LARGE_PARTY_LIMIT = 12;
+        private const decimal LARGE_PARTY_FEE = 100M;
+
         // This class does all of the cost calculations 
         public decimal CostOfParty(int numberOfGuests, bool fancy, bool healthy)
         {
             // resets totalCost variable 
             decimal totalCost = 0;
+
+            // Decides if large group fee will be charged, adds charge
+            if (numberOfGuests > LARGE_PARTY_LIMIT)
+                totalCost += LARGE_PARTY_FEE;
 
             // add food cost to total
             totalCost = totalCost + (numberOfGuests * FOOD_FEE_PER_PERSON);

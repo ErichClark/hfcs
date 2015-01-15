@@ -134,7 +134,7 @@
             this.partyChooserTab.Location = new System.Drawing.Point(0, 0);
             this.partyChooserTab.Name = "partyChooserTab";
             this.partyChooserTab.SelectedIndex = 0;
-            this.partyChooserTab.Size = new System.Drawing.Size(287, 294);
+            this.partyChooserTab.Size = new System.Drawing.Size(346, 281);
             this.partyChooserTab.TabIndex = 6;
             // 
             // dinnerPartyTab
@@ -148,7 +148,7 @@
             this.dinnerPartyTab.Location = new System.Drawing.Point(4, 29);
             this.dinnerPartyTab.Name = "dinnerPartyTab";
             this.dinnerPartyTab.Padding = new System.Windows.Forms.Padding(3);
-            this.dinnerPartyTab.Size = new System.Drawing.Size(279, 261);
+            this.dinnerPartyTab.Size = new System.Drawing.Size(338, 261);
             this.dinnerPartyTab.TabIndex = 0;
             this.dinnerPartyTab.Text = "Dinner Party";
             this.dinnerPartyTab.UseVisualStyleBackColor = true;
@@ -169,7 +169,7 @@
             this.birthdayPartyTab.Location = new System.Drawing.Point(4, 29);
             this.birthdayPartyTab.Name = "birthdayPartyTab";
             this.birthdayPartyTab.Padding = new System.Windows.Forms.Padding(3);
-            this.birthdayPartyTab.Size = new System.Drawing.Size(279, 261);
+            this.birthdayPartyTab.Size = new System.Drawing.Size(338, 248);
             this.birthdayPartyTab.TabIndex = 1;
             this.birthdayPartyTab.Text = "Birthday Party";
             this.birthdayPartyTab.UseVisualStyleBackColor = true;
@@ -177,23 +177,25 @@
             // 
             // cakeSizeLabel
             // 
-            this.cakeSizeLabel.Location = new System.Drawing.Point(101, 95);
+            this.cakeSizeLabel.Location = new System.Drawing.Point(101, 65);
             this.cakeSizeLabel.Name = "cakeSizeLabel";
-            this.cakeSizeLabel.Size = new System.Drawing.Size(149, 26);
+            this.cakeSizeLabel.Size = new System.Drawing.Size(231, 26);
             this.cakeSizeLabel.TabIndex = 10;
             this.cakeSizeLabel.TextChanged += new System.EventHandler(this.birthdayPartyTab_Click);
             // 
             // additionalCharactersLabel
             // 
-            this.additionalCharactersLabel.Location = new System.Drawing.Point(177, 184);
+            this.additionalCharactersLabel.BackColor = System.Drawing.Color.SpringGreen;
+            this.additionalCharactersLabel.Location = new System.Drawing.Point(177, 176);
             this.additionalCharactersLabel.Name = "additionalCharactersLabel";
-            this.additionalCharactersLabel.Size = new System.Drawing.Size(45, 26);
+            this.additionalCharactersLabel.Size = new System.Drawing.Size(28, 26);
             this.additionalCharactersLabel.TabIndex = 9;
+            this.additionalCharactersLabel.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // additionalCharactersText
             // 
             this.additionalCharactersText.AutoSize = true;
-            this.additionalCharactersText.Location = new System.Drawing.Point(9, 187);
+            this.additionalCharactersText.Location = new System.Drawing.Point(9, 179);
             this.additionalCharactersText.Name = "additionalCharactersText";
             this.additionalCharactersText.Size = new System.Drawing.Size(162, 20);
             this.additionalCharactersText.TabIndex = 8;
@@ -201,15 +203,15 @@
             // 
             // birthdayCostBox
             // 
-            this.birthdayCostBox.Location = new System.Drawing.Point(62, 219);
+            this.birthdayCostBox.Location = new System.Drawing.Point(62, 211);
             this.birthdayCostBox.Name = "birthdayCostBox";
-            this.birthdayCostBox.Size = new System.Drawing.Size(80, 26);
+            this.birthdayCostBox.Size = new System.Drawing.Size(125, 26);
             this.birthdayCostBox.TabIndex = 7;
             // 
             // birthdayCostText
             // 
             this.birthdayCostText.AutoSize = true;
-            this.birthdayCostText.Location = new System.Drawing.Point(9, 219);
+            this.birthdayCostText.Location = new System.Drawing.Point(9, 211);
             this.birthdayCostText.Name = "birthdayCostText";
             this.birthdayCostText.Size = new System.Drawing.Size(46, 20);
             this.birthdayCostText.TabIndex = 6;
@@ -218,7 +220,7 @@
             // cakeMessageText
             // 
             this.cakeMessageText.AutoSize = true;
-            this.cakeMessageText.Location = new System.Drawing.Point(9, 124);
+            this.cakeMessageText.Location = new System.Drawing.Point(9, 94);
             this.cakeMessageText.Name = "cakeMessageText";
             this.cakeMessageText.Size = new System.Drawing.Size(159, 20);
             this.cakeMessageText.TabIndex = 5;
@@ -226,15 +228,20 @@
             // 
             // cakeMessage
             // 
-            this.cakeMessage.Location = new System.Drawing.Point(13, 147);
+            this.cakeMessage.AutoCompleteCustomSource.AddRange(new string[] {
+            "0123456789123456",
+            "0123456789012345678901234567890123456789"});
+            this.cakeMessage.Location = new System.Drawing.Point(13, 117);
+            this.cakeMessage.Multiline = true;
             this.cakeMessage.Name = "cakeMessage";
-            this.cakeMessage.Size = new System.Drawing.Size(237, 26);
+            this.cakeMessage.Size = new System.Drawing.Size(319, 46);
             this.cakeMessage.TabIndex = 4;
+            this.cakeMessage.TextChanged += new System.EventHandler(this.cakeMessage_TextChanged);
             // 
             // cakeSizeText
             // 
             this.cakeSizeText.AutoSize = true;
-            this.cakeSizeText.Location = new System.Drawing.Point(9, 98);
+            this.cakeSizeText.Location = new System.Drawing.Point(9, 68);
             this.cakeSizeText.Name = "cakeSizeText";
             this.cakeSizeText.Size = new System.Drawing.Size(86, 20);
             this.cakeSizeText.TabIndex = 3;
@@ -243,12 +250,13 @@
             // fancyBirthdayOption
             // 
             this.fancyBirthdayOption.AutoSize = true;
-            this.fancyBirthdayOption.Location = new System.Drawing.Point(13, 71);
+            this.fancyBirthdayOption.Location = new System.Drawing.Point(87, 41);
             this.fancyBirthdayOption.Name = "fancyBirthdayOption";
             this.fancyBirthdayOption.Size = new System.Drawing.Size(129, 24);
             this.fancyBirthdayOption.TabIndex = 2;
             this.fancyBirthdayOption.Text = "Fancy Option";
             this.fancyBirthdayOption.UseVisualStyleBackColor = true;
+            this.fancyBirthdayOption.CheckedChanged += new System.EventHandler(this.fancyBirthdayOption_CheckedChanged);
             // 
             // birthdayPartyText
             // 
@@ -270,12 +278,13 @@
             0,
             0,
             0});
+            this.birthdayUpDown.ValueChanged += new System.EventHandler(this.birthdayUpDown_ValueChanged);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(288, 293);
+            this.ClientSize = new System.Drawing.Size(345, 281);
             this.Controls.Add(this.partyChooserTab);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
