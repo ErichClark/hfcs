@@ -7,7 +7,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
 namespace ImprovedPartyPlannerVs13
 {
     public partial class Form1 : Form
@@ -33,22 +32,29 @@ namespace ImprovedPartyPlannerVs13
 
         }
 
+        private void UpdateDinnerDisplay()
+        {
+            numberOfDinnerGuestsHolder = (int)dinnerGuestCountUpDown.Value;
+            DinnerCost = dinnerParty.CostOfParty(numberOfDinnerGuestsHolder, !healthyBox.Checked, !fancyBox.Checked);
+
+            costDisplay.Text = DinnerCost.ToString("c");
+        }
+
         private void UpdateBirthdayDisplay()
         {
-            
             // Reads number of Birthday guests from UpDown
             numberOfBirthdayGuestsHolder = (int)birthdayUpDown.Value;
             //Based on that, retreives cake size and displays that info
-            cakeSizeLabel.Text = birthdayParty.decideCakeSize(numberOfBirthdayGuestsHolder);
+            cakeSizeLabel.Text = birthdayParty.assessCakeSize(numberOfBirthdayGuestsHolder);
 
-            // Grabs cake message
-            messageHolder = (string)cakeMessage.Text;
+            // Grabs cake message,
             // Sends the string from the textbox to be counted and returns characters left
-            cakeLettersLeft = birthdayParty.lettersLeft(messageHolder);
             // Displays how many characters remain or are over limit
-            additionalCharactersLabel.Text = cakeLettersLeft.ToString();
             // Turns the character remaining label red (white letters) if over the limit,
-            // green (black letters) if under character limit 
+            // green (black letters) if under character limit
+            messageHolder = (string)cakeMessage.Text;
+            cakeLettersLeft = birthdayParty.assessLettersLeft(messageHolder);
+            additionalCharactersLabel.Text = cakeLettersLeft.ToString();
             if (cakeLettersLeft < 0)
             {
                 additionalCharactersLabel.BackColor = Color.Red;
@@ -58,26 +64,11 @@ namespace ImprovedPartyPlannerVs13
             {
                 additionalCharactersLabel.BackColor = Color.SpringGreen;
                 additionalCharactersLabel.ForeColor = Color.Black;
-
             }
 
             // Calculates Birthday Party cost, displays cost
-            BirthdayCost = birthdayParty.CostOfBirthdayParty(numberOfBirthdayGuestsHolder, !fancyBirthdayOption.Checked);
+            BirthdayCost = birthdayParty.CostOfBirthdayParty(numberOfBirthdayGuestsHolder, !fancyBirthdayOption.Checked, messageHolder);
             birthdayCostBox.Text = BirthdayCost.ToString("c");
-
-
-        }
-
-
-
-        private void UpdateDinnerDisplay()
-        {
-            
-
-            numberOfDinnerGuestsHolder = (int)dinnerGuestCountUpDown.Value;
-            DinnerCost = dinnerParty.CostOfParty(numberOfDinnerGuestsHolder, !healthyBox.Checked, !fancyBox.Checked);
-
-            costDisplay.Text = DinnerCost.ToString("c");
         }
 
         private void guestCountUpDown_ValueChanged(object sender, EventArgs e)
