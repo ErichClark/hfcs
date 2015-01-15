@@ -8,29 +8,25 @@ namespace ImprovedPartyPlannerVs13
 {
     class BirthdayParty
     {
-        private decimal totalCost = 0;
+        private const int LARGE_PARTY_LIMIT = 12;
+        private const decimal LARGE_PARTY_FEE = 100M;
         private const decimal FOOD_FEE_PER_PERSON = 25.00M;
 
         private const decimal FANCY_COST = 7.50M;
         private const decimal FANCY_FEE = 30M;
-
         private const decimal NOT_FANCY_COST = 15M;
         private const decimal NOT_FANCY_FEE = 50M;
 
         private const decimal SMALL_CAKE_GUEST_LIMIT = 4;
-        private bool IsSmallCake = true;
-        private int numberOfCakeLetters = 0;
-        public bool LettersWillFit = true;
-
         private const int SMALL_CAKE_LETTER_LIMIT = 16;
         private const decimal SMALL_CAKE_COST = 40M;
-        
         private const int BIG_CAKE_LETTER_LIMIT = 40;
         private const decimal BIG_CAKE_COST = 75M;
-
         private const decimal COST_PER_LETTER = 0.25M;
-        private const int LARGE_PARTY_LIMIT = 12;
-        private const decimal LARGE_PARTY_FEE = 100M;
+
+        private decimal totalCost;
+        private bool IsSmallCake;
+        private int numberOfCakeLetters;
 
         public string decideCakeSize(int numberOfBirthdayGuests)
         {
@@ -48,31 +44,25 @@ namespace ImprovedPartyPlannerVs13
             }
         }
 
-        public int lettersLeft( int numberOfCharacters)
+        public int lettersLeft(string messageFromTextBoxForm)
         {
+            // Counts number of cake letters
+            // THIS COUNT IS STORED AND USED LATER FOR LETTERING COST
+            numberOfCakeLetters = messageFromTextBoxForm.Length;
             if (IsSmallCake)
             {
-                return SMALL_CAKE_LETTER_LIMIT - numberOfCharacters;
+                return SMALL_CAKE_LETTER_LIMIT - numberOfCakeLetters;
             }
             else
             {
-                return BIG_CAKE_LETTER_LIMIT - numberOfCharacters;
+                return BIG_CAKE_LETTER_LIMIT - numberOfCakeLetters;
             }
-                
-
         }
-
-        public int letteringLength(string actualMessage)
-        {
-            numberOfCakeLetters = actualMessage.Length;
-            return numberOfCakeLetters;
-        }
-
-        
+       
         //This class does all Birthday Party Cost Calculations
-        public decimal CostOfBirthdayParty(int numberOfGuests, bool fancy, string lettering)
+        public decimal CostOfBirthdayParty(int numberOfGuests, bool fancy)
         {
-            // Holds, resets totalCost variable 
+            // Resets totalCost variable 
             totalCost = 0;
             
             // Decides if large group fee will be charged, adds charge
@@ -94,23 +84,25 @@ namespace ImprovedPartyPlannerVs13
                 totalCost += NOT_FANCY_FEE;
             }
 
-            // small cake letter costs
+            // small cake and letter costs
             if (IsSmallCake)
             {
                 totalCost += SMALL_CAKE_COST;
                 if (numberOfCakeLetters < SMALL_CAKE_LETTER_LIMIT)
                     totalCost += (numberOfCakeLetters * COST_PER_LETTER);
                 else
+                    // Will not charge over maximum character count
                     totalCost += (SMALL_CAKE_LETTER_LIMIT * COST_PER_LETTER);
             }
 
-            // large cake letter costs
+            // large cake and letter costs
             if (!IsSmallCake)
             {
                 totalCost += BIG_CAKE_COST;
                 if (numberOfCakeLetters < BIG_CAKE_LETTER_LIMIT)
                     totalCost += (numberOfCakeLetters * COST_PER_LETTER);
                 else
+                    // Will not charge over maximum character count
                     totalCost += (BIG_CAKE_LETTER_LIMIT * COST_PER_LETTER);
             }
 

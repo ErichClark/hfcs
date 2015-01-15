@@ -14,15 +14,13 @@ namespace ImprovedPartyPlannerVs13
     {
         DinnerParty dinnerParty;
         public int numberOfDinnerGuestsHolder;
-        public string cakeSize;
-        public decimal DinnerCost = 0;
+        public decimal DinnerCost;
 
         BirthdayParty birthdayParty;
         public int numberOfBirthdayGuestsHolder;
-        public decimal BirthdayCost = 0;
-        private int messageCharacterCount = 0;
         public string messageHolder;
-        public int cakeLettersLeft = 0;
+        public int cakeLettersLeft;
+        public decimal BirthdayCost;
         
         public Form1()
         {
@@ -45,10 +43,8 @@ namespace ImprovedPartyPlannerVs13
 
             // Grabs cake message
             messageHolder = (string)cakeMessage.Text;
-            // Counts number of characters in message
-            messageCharacterCount = birthdayParty.letteringLength(messageHolder);
-            // Subtracts number of characters entered to the cake limit
-            cakeLettersLeft = birthdayParty.lettersLeft(messageCharacterCount);
+            // Sends the string from the textbox to be counted and returns characters left
+            cakeLettersLeft = birthdayParty.lettersLeft(messageHolder);
             // Displays how many characters remain or are over limit
             additionalCharactersLabel.Text = cakeLettersLeft.ToString();
             // Turns the character remaining label red (white letters) if over the limit,
@@ -66,7 +62,7 @@ namespace ImprovedPartyPlannerVs13
             }
 
             // Calculates Birthday Party cost, displays cost
-            BirthdayCost = birthdayParty.CostOfBirthdayParty(numberOfBirthdayGuestsHolder, !fancyBirthdayOption.Checked, messageHolder);
+            BirthdayCost = birthdayParty.CostOfBirthdayParty(numberOfBirthdayGuestsHolder, !fancyBirthdayOption.Checked);
             birthdayCostBox.Text = BirthdayCost.ToString("c");
 
 

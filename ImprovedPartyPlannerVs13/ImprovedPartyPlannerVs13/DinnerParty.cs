@@ -11,6 +11,9 @@ namespace ImprovedPartyPlannerVs13
         
         // All fee variables are private, constant, and all in one place
         // NO MAGIC NUMBERS and a minimal quantity of variables
+
+        private const int LARGE_PARTY_LIMIT = 12;
+        private const decimal LARGE_PARTY_FEE = 100M;
         private const decimal FOOD_FEE_PER_PERSON = 25.00M; 
         
         private const decimal FANCY_COST = 15.00M;
@@ -22,14 +25,13 @@ namespace ImprovedPartyPlannerVs13
         private const decimal HEALTHY_COST = 5.00M;
         private const decimal HEALTHY_DISCOUNT = 0.05M;
 
-        private const int LARGE_PARTY_LIMIT = 12;
-        private const decimal LARGE_PARTY_FEE = 100M;
+        private decimal totalCost;
 
         // This class does all of the cost calculations 
         public decimal CostOfParty(int numberOfGuests, bool fancy, bool healthy)
         {
             // resets totalCost variable 
-            decimal totalCost = 0;
+            totalCost = 0;
 
             // Decides if large group fee will be charged, adds charge
             if (numberOfGuests > LARGE_PARTY_LIMIT)
