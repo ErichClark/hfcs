@@ -22,7 +22,7 @@ namespace WorkoutCalculatorVS13
 
         private void updateDisplay()
         {
-            caloriesLabel.Text = workout.CaloriesBurned.ToString();
+            caloriesLabel.Text = workout.CaloriesBurned().ToString();
         }
 
         private void minutes_UpDown_ValueChanged(object sender, EventArgs e)

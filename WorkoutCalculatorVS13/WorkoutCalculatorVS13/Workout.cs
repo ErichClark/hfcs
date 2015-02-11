@@ -8,7 +8,7 @@ namespace WorkoutCalculatorVS13
 {
     class Workout
     {
-        public double CaloriesBurned { get; private set; }
+        
         private double caloriesPerMinute;
         private double workoutLengthInMinutes;
 
@@ -27,7 +27,6 @@ namespace WorkoutCalculatorVS13
             set
             {
                 workoutLengthInMinutes = value;
-                CaloriesBurned = workoutLengthInMinutes * caloriesPerMinute;
             }
         }
 
@@ -40,10 +39,12 @@ namespace WorkoutCalculatorVS13
             set
             {
                 caloriesPerMinute = value;
-                CaloriesBurned = workoutLengthInMinutes * caloriesPerMinute;
             }
         }
 
-        
+        public double CaloriesBurned()
+        {
+            return workoutLengthInMinutes * caloriesPerMinute;
+        }
     }
 }
