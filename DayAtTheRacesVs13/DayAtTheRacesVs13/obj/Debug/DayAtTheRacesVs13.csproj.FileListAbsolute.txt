@@ -1,5 +1,0 @@
-C:\Users\Erich\Documents\GitHub\hfcs\DayAtTheRacesVs13\DayAtTheRacesVs13\bin\Debug\DayAtTheRacesVs13.exe.config
-C:\Users\Erich\Documents\GitHub\hfcs\DayAtTheRacesVs13\DayAtTheRacesVs13\obj\Debug\DayAtTheRacesVs13.csprojResolveAssemblyReference.cache
-C:\Users\Erich\Documents\GitHub\hfcs\DayAtTheRacesVs13\DayAtTheRacesVs13\obj\Debug\DayAtTheRacesVs13.Form1.resources
-C:\Users\Erich\Documents\GitHub\hfcs\DayAtTheRacesVs13\DayAtTheRacesVs13\obj\Debug\DayAtTheRacesVs13.Properties.Resources.resources
-C:\Users\Erich\Documents\GitHub\hfcs\DayAtTheRacesVs13\DayAtTheRacesVs13\obj\Debug\DayAtTheRacesVs13.csproj.GenerateResource.Cache

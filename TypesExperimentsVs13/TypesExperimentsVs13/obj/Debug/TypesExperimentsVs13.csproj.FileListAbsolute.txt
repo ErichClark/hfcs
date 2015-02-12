@@ -1,5 +1,0 @@
-C:\Users\Erich\Documents\GitHub\hfcs\TypesExperimentsVs13\TypesExperimentsVs13\bin\Debug\TypesExperimentsVs13.exe.config
-C:\Users\Erich\Documents\GitHub\hfcs\TypesExperimentsVs13\TypesExperimentsVs13\obj\Debug\TypesExperimentsVs13.csprojResolveAssemblyReference.cache
-C:\Users\Erich\Documents\GitHub\hfcs\TypesExperimentsVs13\TypesExperimentsVs13\obj\Debug\TypesExperimentsVs13.Form1.resources
-C:\Users\Erich\Documents\GitHub\hfcs\TypesExperimentsVs13\TypesExperimentsVs13\obj\Debug\TypesExperimentsVs13.Properties.Resources.resources
-C:\Users\Erich\Documents\GitHub\hfcs\TypesExperimentsVs13\TypesExperimentsVs13\obj\Debug\TypesExperimentsVs13.csproj.GenerateResource.Cache

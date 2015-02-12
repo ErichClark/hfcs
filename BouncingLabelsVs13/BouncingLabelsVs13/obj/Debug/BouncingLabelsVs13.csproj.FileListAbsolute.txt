@@ -1,9 +1,0 @@
-C:\Users\Erich\Documents\GitHub\hfcs\BouncingLabelsVs13\BouncingLabelsVs13\bin\Debug\BouncingLabelsVs13.exe.config
-C:\Users\Erich\Documents\GitHub\hfcs\BouncingLabelsVs13\BouncingLabelsVs13\bin\Debug\BouncingLabelsVs13.exe
-C:\Users\Erich\Documents\GitHub\hfcs\BouncingLabelsVs13\BouncingLabelsVs13\bin\Debug\BouncingLabelsVs13.pdb
-C:\Users\Erich\Documents\GitHub\hfcs\BouncingLabelsVs13\BouncingLabelsVs13\obj\Debug\BouncingLabelsVs13.csprojResolveAssemblyReference.cache
-C:\Users\Erich\Documents\GitHub\hfcs\BouncingLabelsVs13\BouncingLabelsVs13\obj\Debug\BouncingLabelsVs13.Form1.resources
-C:\Users\Erich\Documents\GitHub\hfcs\BouncingLabelsVs13\BouncingLabelsVs13\obj\Debug\BouncingLabelsVs13.Properties.Resources.resources
-C:\Users\Erich\Documents\GitHub\hfcs\BouncingLabelsVs13\BouncingLabelsVs13\obj\Debug\BouncingLabelsVs13.csproj.GenerateResource.Cache
-C:\Users\Erich\Documents\GitHub\hfcs\BouncingLabelsVs13\BouncingLabelsVs13\obj\Debug\BouncingLabelsVs13.exe
-C:\Users\Erich\Documents\GitHub\hfcs\BouncingLabelsVs13\BouncingLabelsVs13\obj\Debug\BouncingLabelsVs13.pdb
