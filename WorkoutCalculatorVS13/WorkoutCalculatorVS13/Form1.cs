@@ -31,7 +31,7 @@ namespace WorkoutCalculatorVS13
             updateDisplay();
         }
 
-        private void numericUpDown1_ValueChanged(object sender, EventArgs e)
+        private void caloriesPerMinute_ValueChanged(object sender, EventArgs e)
         {
             workout.CaloriesPerMinute = (double)caloriesPerMinute_UpDown.Value;
             updateDisplay();

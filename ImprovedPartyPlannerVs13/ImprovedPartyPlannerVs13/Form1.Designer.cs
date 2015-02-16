@@ -148,7 +148,7 @@
             this.dinnerPartyTab.Location = new System.Drawing.Point(4, 29);
             this.dinnerPartyTab.Name = "dinnerPartyTab";
             this.dinnerPartyTab.Padding = new System.Windows.Forms.Padding(3);
-            this.dinnerPartyTab.Size = new System.Drawing.Size(338, 261);
+            this.dinnerPartyTab.Size = new System.Drawing.Size(338, 248);
             this.dinnerPartyTab.TabIndex = 0;
             this.dinnerPartyTab.Text = "Dinner Party";
             this.dinnerPartyTab.UseVisualStyleBackColor = true;
@@ -270,11 +270,16 @@
             // birthdayUpDown
             // 
             this.birthdayUpDown.Location = new System.Drawing.Point(13, 39);
+            this.birthdayUpDown.Maximum = new decimal(new int[] {
+            20,
+            0,
+            0,
+            0});
             this.birthdayUpDown.Name = "birthdayUpDown";
             this.birthdayUpDown.Size = new System.Drawing.Size(57, 26);
             this.birthdayUpDown.TabIndex = 0;
             this.birthdayUpDown.Value = new decimal(new int[] {
-            4,
+            5,
             0,
             0,
             0});

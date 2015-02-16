@@ -107,7 +107,7 @@
             0,
             0,
             0});
-            this.caloriesPerMinute_UpDown.ValueChanged += new System.EventHandler(this.numericUpDown1_ValueChanged);
+            this.caloriesPerMinute_UpDown.ValueChanged += new System.EventHandler(this.caloriesPerMinute_ValueChanged);
             // 
             // caloriesBurned_Text
             // 
