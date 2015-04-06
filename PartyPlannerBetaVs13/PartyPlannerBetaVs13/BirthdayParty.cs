@@ -7,7 +7,10 @@ namespace PartyPlannerBetaVs13
 {
     class BirthdayParty : Party
     {
-        private decimal birthdayCost = 0;
+        private decimal birthdayCost;
+        private double numberBDayGuests;
+        private bool isSmallCake;
+        private int messageCharacterCount;
 
         public decimal CalculateBirthdayCost()
         {
@@ -15,13 +18,14 @@ namespace PartyPlannerBetaVs13
             // food and decorations costs. 
             birthdayCost = BasePartyCost();
 
+            assessCakeSize();
 
             
             return birthdayCost;
         }
         
         
-        public string assessCakeSize(int numberOfGuests)
+        public string assessCakeSize()
         {
             
             // decides if small or large cake is used, 
